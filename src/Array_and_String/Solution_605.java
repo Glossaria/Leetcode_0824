@@ -1,3 +1,5 @@
+package Array_and_String;
+
 public class Solution_605 {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
 

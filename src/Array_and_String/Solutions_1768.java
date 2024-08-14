@@ -1,3 +1,5 @@
+package Array_and_String;
+
 public class Solutions_1768 {
 
     public String mergeAlternately(String word1, String word2) {

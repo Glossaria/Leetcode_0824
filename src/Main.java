@@ -1,3 +1,8 @@
+import Array_and_String.Solution_1431;
+import Array_and_String.Solution_345;
+import Array_and_String.Solution_605;
+import Array_and_String.Solutions_1768;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
