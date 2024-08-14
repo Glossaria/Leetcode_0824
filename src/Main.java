@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Hello and welcome!");
 
         //for 1768
-        System.out.print(new Solutions_1768().mergeAlternately("abcde","fghijk"));
+        System.out.println(new Solutions_1768().mergeAlternately("abcde","fghijk"));
 
         //for 1431
         int[] candies = {2,3,5,1,3};
@@ -16,6 +16,9 @@ public class Main {
         //for 605
         int[] flowerbed = {1,0,1,0,1,0,0,0,0,1};
         new Solution_605().canPlaceFlowers(flowerbed, 3);
+
+        //for 345
+        System.out.println(new Solution_345().reverseVowels("HelloLeetcode"));
 
     }
 }

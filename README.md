@@ -8,7 +8,15 @@
 * Char Array to String
   *     String.valueOf(chars)
 * create List Array
-  *     List<Boolean> res = new ArrayList<>();
-  *     List<Integer> res = new ArrayList<>();
-  *     List<Character> res = new ArrayList<>();
-
+  *     List<Boolean> list = new ArrayList<>();
+  *     List<Integer> list = new ArrayList<>();
+  *     List<Character> list = new ArrayList<>();
+* List add new items
+  *     list.add(s.charAt(i));
+  *     list.add(1);
+  *     list.add(true);
+* Get the i-th item from List
+  *     list.get(i);
+  
+* Check String contains a char or not
+  *     str.indexOf(s.charAt(i)) != -1
