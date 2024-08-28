@@ -1,5 +1,7 @@
 package Array_and_String;
 
+import java.util.Objects;
+
 public class Solution_151 {
      public String reverseWords(String s) {
             String[] array = s.split(" ");
@@ -8,7 +10,7 @@ public class Solution_151 {
             StringBuilder res = new StringBuilder();
 
             for(int i = len - 1; i >= 0; i--){
-                if(array[i] != ""){
+                if(!Objects.equals(array[i], "")){
                     res.append(array[i]);
                     res.append(" ");
                 }
