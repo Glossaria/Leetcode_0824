@@ -17,6 +17,19 @@
   *     list.add(true);
 * Get the i-th item from List
   *     list.get(i);
-  
 * Check String contains a char or not
   *     str.indexOf(s.charAt(i)) != -1
+* Split String into a String Array
+  *     String[] array = s.split(" ")
+* Create a StringBuilder
+  *     StringBuilder res = new StringBuilder()
+* Append into StringBuilder
+  *     res.append(" ")
+* Set StringBuilder length
+  *     res.setLength(length)
+* Int to String
+  *     String.valueOf(counter)
+* Int to Char array ``` 12 -> "12" -> ['1','2'] ```
+  *     String.valueOf(counter).toCharArray() 
+
+
